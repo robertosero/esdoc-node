@@ -1,0 +1,14 @@
+[
+  {
+    "from": "module.exports = { asd: 'ciao' }",
+    "to": "export default { asd: 'ciao' }"
+  },
+  {
+    "from": "exports.asd = asd",
+    "to": "export { asd }"
+  },
+  {
+    "from": "module.exports",
+    "to": ""
+  }
+]

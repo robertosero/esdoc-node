@@ -4,7 +4,7 @@
   "description": "Allows esdoc to use node.js exports and module.exports.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/ddude/esdoc-node#readme",
   "devDependencies": {
-    "tape": "^4.5.1"
+    "jest": "^23.6.0"
   }
 }
